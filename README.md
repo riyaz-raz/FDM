@@ -60,3 +60,11 @@ FDM/
   - Wi-Fi only restriction toggle.
   - Built-in ad-blocker toggle.
   - Material You dark mode.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Developed by **LEGOZIA GROUP**.
+
