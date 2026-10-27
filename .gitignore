@@ -1,0 +1,49 @@
+# Gradle & Build outputs
+.gradle/
+.kotlin/
+build/
+**/build/
+bin/
+gen/
+out/
+
+# Built application files
+*.apk
+*.aar
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Local configuration file (SDK location, local properties)
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Log files & Memory dumps
+*.log
+*.hprof
+
+# Android Studio captures and native build
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Key / Signing files
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
