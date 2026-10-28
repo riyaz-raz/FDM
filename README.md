@@ -1,5 +1,7 @@
 # Fast Download Manager (FDM)
 
+[![F-Droid Build & Metadata Check](https://github.com/riyaz-raz/FDM/actions/workflows/fdroid-check.yml/badge.svg)](https://github.com/riyaz-raz/FDM/actions/workflows/fdroid-check.yml)
+
 Fast Download Manager (FDM) is a modern, high-performance Android download manager and media browser built with Jetpack Compose, Material 3, and Kotlin Coroutines. It features a clean architecture designed for speed, efficiency, and a seamless user experience.
 
 ---
