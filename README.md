@@ -63,8 +63,21 @@ FDM/
 
 ---
 
+## 4. F-Droid Publishing & Metadata
+
+FDM is configured for 100% FLOSS (Free and Open Source Software) compliance and ready for submission/indexing on F-Droid:
+
+- **Repository**: [https://github.com/riyaz-raz/FDM.git](https://github.com/riyaz-raz/FDM.git)
+- **F-Droid Build Recipe**: Defined in [metadata/com.legozia.fdm.yml](metadata/com.legozia.fdm.yml) and [.fdroid.yml](.fdroid.yml).
+- **Fastlane Metadata**: Store listing metadata located under [fastlane/metadata/android/en-US/](fastlane/metadata/android/en-US/).
+- **CI / CD Workflows**:
+  - [.github/workflows/release.yml](.github/workflows/release.yml): Releases tagged pushes (`v*`) to GitHub Releases.
+  - [.github/workflows/fdroid-check.yml](.github/workflows/fdroid-check.yml): Validates build integrity and Fastlane metadata on PRs and main branch.
+
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-Developed by **LEGOZIA GROUP**.
+Developed by **riyaz-raz**.
 

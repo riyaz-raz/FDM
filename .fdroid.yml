@@ -1,0 +1,27 @@
+Categories:
+  - Internet
+License: MIT
+AuthorName: riyaz-raz
+SourceCode: https://github.com/riyaz-raz/FDM
+IssueTracker: https://github.com/riyaz-raz/FDM/issues
+
+AutoName: FDM - Fast Download Manager
+Summary: Modern high-performance download manager and media browser
+Description: |-
+  Fast Download Manager (FDM) is a modern, high-performance Android download manager and media browser built with Jetpack Compose, Material 3, and Kotlin Coroutines.
+
+RepoType: git
+Repo: https://github.com/riyaz-raz/FDM.git
+
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags ^v[0-9.]+$
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1

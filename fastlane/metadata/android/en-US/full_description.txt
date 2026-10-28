@@ -1,0 +1,9 @@
+Fast Download Manager (FDM) is a modern, high-performance Android download manager and media browser built with Jetpack Compose, Material 3, and Kotlin Coroutines.
+
+Features:
+- Streamlined Downloads Dashboard: Real-time speed & ETA, category filters (Videos, Music, Documents, Archives, Apps).
+- Multi-Threaded Engine: Concurrent chunked downloads configurable from 1 to 32 connections.
+- Integrated Media Sniffer Browser: In-app browser that automatically detects downloadable video and audio streams (.m3u8, .mpd, .mp4, .mp3).
+- Material 3 & Edge-to-Edge Design: Modern dynamic colors, adaptive dark theme, and smooth animations.
+- Privacy & Controls: Wi-Fi only download restriction toggle and built-in privacy settings.
+- 100% Free & Open Source: No ads, no tracking, built with modern open-source Kotlin libraries.
